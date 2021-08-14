@@ -1,0 +1,19 @@
+
+gcc ver2-client.c -o ver2-client1
+./ver2-client1 0
+
+gcc ver2-client.c -o ver2-client2
+./ver2-client2 1 1.ext 2 sendfile2.ext 3 sendfile3.ext 2
+
+gcc ver2-client.c -o ver2-client3
+./ver2-client3 2 sendfile4.ext 4 sendfile5.ext 0
+
+gcc ver2-client.c -o ver2-client4
+./ver2-client4 3 sendfile6.ext 4
+
+gcc ver2-client.c -o ver2-client5
+./ver2-client5 4 sendfile7.ext 1 sendfile8.ext 2
+
+gcc ver2-server.c -o ver2-server
+./ver2-server
+

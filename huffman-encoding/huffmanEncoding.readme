@@ -1,0 +1,11 @@
+initially a link list store the data and it transformed into binary tree(a mean heap for huffman code).
+
+direct hashing(index is ascii value) is used to calculate frequency.
+
+huffman encode includes string of bits, consider it as integer so it takes less space, eg. 10101101==173
+
+
+
+
+problems may occurs in-
+calcASCII- system dependent, sometimes MSB considered as sign bit.
